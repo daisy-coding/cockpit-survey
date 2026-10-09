@@ -1,0 +1,15 @@
+{
+  "name": "cockpit-survey",
+  "owner": {
+    "name": "Roman Dmytriev"
+  },
+  "description": "A local survey panel for Claude Code: choices, explanations and free-text answers.",
+  "plugins": [
+    {
+      "name": "survey",
+      "source": "./agents/claude/plugins/survey",
+      "version": "0.1.25",
+      "description": "Анкета для выбора архитектуры и ответов на несколько вопросов"
+    }
+  ]
+}

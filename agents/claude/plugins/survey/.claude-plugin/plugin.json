@@ -1,0 +1,16 @@
+{
+  "name": "survey",
+  "version": "0.1.25",
+  "description": "Анкета для выбора архитектуры и ответов на несколько вопросов",
+  "author": { "name": "Roman Dmytriev" },
+  "license": "MIT",
+  "userConfig": {
+    "glyphs": {
+      "type": "string",
+      "title": "Значки",
+      "description": "Значки FileTree: Nerd Font или обычный Unicode; auto выбирает Unicode вне терминала",
+      "options": ["auto", "nerd", "plain"],
+      "default": "nerd"
+    }
+  }
+}
